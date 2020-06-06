@@ -10,16 +10,26 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/4906ee3594.js"></script>
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Medic Shop</title>
 </head>
 <body>
-  <header class="bg-danger text-white d-flex flex-column">
-    <div>
-      <h1 class="text-center mt-5">MEDIC SHOP</h1>
-      <p class="text-center">Purchase all your legit medical equipment here</p>
+  <header class="col-xs-12 menu text-white flex-column">
+    <div class="nav col-xs-12">
+      <nav class="col-xs-10 col-md-8 d-flex m-auto justify-content-around">
+         <p class="col-xs-12 col-md-4"> <i class="fa fa-home"></i>  Home<p>
+         <p class="col-xs-12 col-md-4" ><i class="fa fa-hospital"></i></i>Collection</p>
+         <p class="col-xs-12 col-md-4"><i class="fa fa-shopping-cart"></i>Purchase List</p>
+         <button class="btn btn-danger">Checkout</button>
+      </nav>
     </div>
-    <div class="d-flex justify-content-center m-5">
-      <select name="" id="">
+    <div class="col-xs-12 m-5">
+      <h1 class="col-xs-6 text-center title">MEDIC SHOP</h1>
+      <p class="col-xs-6 text-center slogan">Purchase all your legit medical equipment here</p>
+    </div>
+    <div class="d-flex justify-content-center ">
+      <select name="medical" id="medic">
         <option value="All">All Equipment</option>
         <option value="Thermometers">Thermometers</option>
         <option value="Blood-pressure">Blood-Machines</option>
@@ -29,43 +39,60 @@
       <input type="text" placeholder="Medical">
     </div>
   </header>
-  <section>
-    <div>
-      <div id="featured-pdct">
+  <section class="mt-5 mb-5 col-md-10">
+    <div class="d-flex col-md-10 justify-content-center">
+      <div class="col-md-4" id="featured-pdct">
         <img src="./assets/blood/download.jpeg" alt="">
       </div>
-      <div>
-        <h1>A sphygmomanometer </h1>
+      <div class="col-md-8">
+        <h1 class="text-danger m-3"> A SPHYGMOMANOMETER </h1>
         <p>A sphygmomanometer, also known as a blood pressure meter, blood pressure monitor, or blood pressure gauge, is a device used to measure blood pressure, composed of an inflatable cuff to collapse and then release the artery under the cuff in a controlled manner, and a mercury or aneroid manometer to measure the pressure.</p>
-        <button>Purchase</button>
+        <button class="btn btn-danger"> Purchase</button>
       </div>
     </div>
   </section>
-  <main>
-    <div>
+  <!-- <main>
+
+    <section class="container-fluid">
       <div>
-        <img src="" alt="">
-        <p></p>
-        <button></button>
+        <h3 class="text-center m-3">Thermometers</h3>
       </div>
-      <div>
-        <img src="" alt="">
-        <p></p>
-        <button></button>
+
+      <div class="row d-flex justify-content-center">
+
+        <div class="row justify-content-center col-sm-12 col-md-6">
+          <div class="col-xs-5 col-md-5">
+            <img src="./assets/therms/anton-SZ1DDwCPqkE-unsplash.jpg" alt="Thermometer" width="200px">
+            <p>Shop Braucol-md-5n Thermoscan Ear Thermometer</p>
+            <button>out of stock</button>
+          </div>
+          <div class="col-xs-5 col-md-5">
+            <img src="./assets/therms/anton-SZ1DDwCPqkE-unsplash.jpg" alt="Thermometer" width="200px">
+            <p>Shop Braun Thermoscan Ear Thermometer</p>
+            <button>out of stock</button>
+          </div>
+        </div>
+
+        <div class="row justify-content-center col-sm-6">
+          <div class="col-sm-5">
+            <img src="./assets/therms/anton-SZ1DDwCPqkE-unsplash.jpg" alt="Thermometer" width="200px">
+            <p>Shop Braun Thermoscan Ear Thermometer</p>
+            <button>out of stock</button>
+          </div>
+          <div class="col-sm-5">
+            <img src="./assets/therms/anton-SZ1DDwCPqkE-unsplash.jpg" alt="Thermometer" width="200px">
+            <p>Shop Braun Thermoscan Ear Thermometer</p>
+            <button>out of stock</button>
+          </div>
+        </div>
+
       </div>
-      <div>
-        <img src="" alt="">
-        <p></p>
-        <button></button>
-      </div>
-      <div>
-        <img src="" alt="">
-        <p></p>
-        <button></button>
-      </div>
-    </div>
-  </main>
-  <footer></footer>
+    </section>
+
+  </main> -->
+  <footer>
+    <p class="text-center m-3">Designed by Datagirl&copy;2020</p>
+  </footer>
   
 </body>
 </html>
