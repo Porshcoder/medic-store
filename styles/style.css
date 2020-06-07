@@ -17,6 +17,8 @@ nav {
 }
 
 .menu {
+  display: flex;
+  flex-direction: column;
   background-color: #d35266;
   vertical-align: middle;
   background-image: url("https://img.icons8.com/dotty/80/000000/search.png");
@@ -31,5 +33,13 @@ nav {
 }
 
 .sec-disp {
-  background-color: #888888;
+  background-color: #dfdddd;
+}
+
+.borders {
+  border-bottom: 1px solid #9e9a9a;
+}
+
+.form-elts {
+  display: flex;
 }
