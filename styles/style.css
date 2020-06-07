@@ -51,21 +51,17 @@ nav {
     height: 150px;
     text-align: center;
   }
-
   .nav button {
     width: 200px;
   }
-
   .form-elts {
     display: flex;
     text-align: center;
     width: 100%;
   }
-
   .form-elts input {
-    width: 80%; 
+    width: 80%;
   }
-
   .ads {
     font-size: 10px;
   }
