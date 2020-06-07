@@ -15,39 +15,41 @@
   <title>Medic Shop</title>
 </head>
 <body>
-  <header class="col-xs-12 menu text-white flex-column">
-    <div class="nav col-xs-12">
-      <nav class="col-xs-10 col-md-8 d-flex m-auto justify-content-around">
-         <p class="col-xs-12 col-md-4"> <i class="fa fa-home"></i>  Home<p>
-         <p class="col-xs-12 col-md-4" ><i class="fa fa-hospital"></i></i>Collection</p>
-         <p class="col-xs-12 col-md-4"><i class="fa fa-shopping-cart"></i>Purchase List</p>
-         <button class="btn btn-danger">Checkout</button>
-      </nav>
-    </div>
-    <div class="col-xs-12 m-5">
-      <h1 class="col-xs-6 text-center title">MEDIC SHOP</h1>
-      <p class="col-xs-6 text-center slogan">Purchase all your legit medical equipment here</p>
-    </div>
-    <div class="d-flex justify-content-center ">
-      <select name="medical" id="medic">
-        <option value="All">All Equipment</option>
-        <option value="Thermometers">Thermometers</option>
-        <option value="Blood-pressure">Blood-Machines</option>
-        <option value="Stethoscope">Stethoscopes</option>
-      </select>
-      <input type="text" placeholder="What are you looking for">
-      <input type="text" placeholder="Medical">
-    </div>
-  </header>
-  <section class="mt-5 mb-5 col-md-12">
-    <div class="d-flex col-md-12 justify-content-center">
-      <div class="col-md-3" id="featured-pdct">
-        <img src="./assets/blood/download.jpeg" alt="">
+
+<nav class="nav text-white col-12 justify-content-center">
+  <p class="col-3 col-md-2"> <i class="fa fa-home"></i>  Home<p>
+  <p class="col-3 col-md-2" ><i class="fa fa-hospital"></i></i>Collection</p>
+  <p class="col-3 col-md-3"><i class="fa fa-shopping-cart"></i>Purchase List</p>
+  <button class="col-3 col-md-2 btn btn-danger">Checkout</button>
+</nav>
+
+<header class="menu text-white flex-column p-5">
+  <div class="col-12">
+    <h1 class="col-12 text-center title">MEDIC SHOP</h1>
+    <h4 class="col-12 text-center pb-5">Purchase all your legit medical equipment here. Buying Equipment
+      couldn't been better than this ...
+    </h4>
+  </div>
+  <div class="d-flex justify-content-center col-12 ">
+    <select class="col-3 text-center" name="medical" id="medic">
+      <option value="All">All Equipment</option>
+      <option value="Thermometers">Thermometers</option>
+      <option value="Blood-pressure">Blood-Machines</option>
+      <option value="Stethoscope">Stethoscopes</option>
+    </select>
+    <input class="col-3 text-center" type="text" placeholder="What are you looking for">
+    <input class="col-3 text-center" type="text" placeholder="Medical">
+  </div>
+</header>
+  <section class="col-12">
+    <div class="d-flex col-12 justify-content-center">
+      <div class="col-3" id="featured-pdct">
+        <img class="img-fluid" src="./assets/blood/download.jpeg" alt="featured-product">
       </div>
-      <div class="col-md-7">
-        <h1 class="text-danger mb-3"> A SPHYGMOMANOMETER </h1>
-        <p class="mb-3">A sphygmomanometer, also known as a blood pressure meter, blood pressure monitor, or blood pressure gauge, is a device used to measure blood pressure, composed of an inflatable cuff to collapse and then release the artery under the cuff in a controlled manner, and a mercury or aneroid manometer to measure the pressure.</p>
-        <button class="btn btn-danger"> Purchase</button>
+      <div class="col-7">
+        <h1 class="text-danger"> A SPHYGMOMANOMETER </h1>
+        <p class="">A sphygmomanometer, also known as a blood pressure meter, blood pressure monitor, or blood pressure gauge, is a device used to measure blood pressure, composed of an inflatable cuff to collapse and then release the artery under the cuff in a controlled manner, and a mercury or aneroid manometer to measure the pressure.</p>
+        <button class="btn btn-danger col-6 col-md-4 m-auto"> Purchase Details</button>
       </div>
     </div>
   </section>
