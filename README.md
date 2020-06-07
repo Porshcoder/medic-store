@@ -44,8 +44,6 @@ Feel free to check the [issues page](https://github.com/Datagirlcmr/medicshop/is
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- [dog ceo api](https://dog.ceo/dog-api/)
 - Hat tip to anyone whose code was used
 - Mohammed Awad, for design inspiration
 - etc
