@@ -43,3 +43,30 @@ nav {
 .form-elts {
   display: flex;
 }
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    text-align: center;
+  }
+
+  .nav button {
+    width: 200px;
+  }
+
+  .form-elts {
+    display: flex;
+    text-align: center;
+    width: 100%;
+  }
+
+  .form-elts input {
+    width: 80%; 
+  }
+
+  .ads {
+    font-size: 10px;
+  }
+}
