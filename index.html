@@ -16,53 +16,57 @@
 </head>
 <body>
 
-<nav class="nav text-white col-12 justify-content-center">
-  <p class="col-3 col-md-2"> <i class="fa fa-home"></i>  Home<p>
-  <p class="col-3 col-md-2" ><i class="fa fa-hospital"></i></i>Collection</p>
-  <p class="col-3 col-md-3"><i class="fa fa-shopping-cart"></i>Purchase List</p>
-  <button class="col-3 col-md-2 btn btn-danger">Checkout</button>
-</nav>
+  <nav class="nav text-white col-12 justify-content-center">
+    <p class="col-3 col-md-2"> <i class="fa fa-home"></i>  Home<p>
+    <p class="col-3 col-md-2" ><i class="fa fa-hospital"></i></i>Collection</p>
+    <p class="col-3 col-md-3"><i class="fa fa-shopping-cart"></i>Purchase List</p>
+    <button class="col-3 col-md-2 btn btn-danger">Checkout</button>
+  </nav>
 
-<header class="menu text-white flex-column p-5">
-  <div class="col-12">
-    <h1 class="col-12 text-center title">MEDIC SHOP</h1>
-    <h4 class="col-12 text-center pb-5">Purchase all your legit medical equipment here. Buying Equipment
-      couldn't been better than this ...
-    </h4>
-  </div>
-  <div class="d-flex justify-content-center col-12 ">
-    <select class="col-3 text-center" name="medical" id="medic">
-      <option value="All">All Equipment</option>
-      <option value="Thermometers">Thermometers</option>
-      <option value="Blood-pressure">Blood-Machines</option>
-      <option value="Stethoscope">Stethoscopes</option>
-    </select>
-    <input class="col-3 text-center" type="text" placeholder="What are you looking for">
-    <input class="col-3 text-center" type="text" placeholder="Medical">
-  </div>
-</header>
-  <section class="col-12">
+  <header class="menu text-white flex-column p-5">
+    <div class="col-12">
+      <h1 class="col-12 text-center title">MEDIC SHOP</h1>
+      <h4 class="col-12 text-center pb-5">Purchase all your legit medical equipment here. Buying Equipment
+        couldn't been better than this ...
+      </h4>
+    </div>
+    <div class="d-flex justify-content-center col-12 ">
+      <select class="col-3 text-center" name="medical" id="medic">
+        <option value="All">All Equipment</option>
+        <option value="Thermometers">Thermometers</option>
+        <option value="Blood-pressure">Blood-Machines</option>
+        <option value="Stethoscope">Stethoscopes</option>
+      </select>
+      <input class="col-3 text-center" type="text" placeholder="What are you looking for">
+      <input class="col-3 text-center" type="text" placeholder="Medical">
+    </div>
+  </header>
+
+  <section class="col-12 p-5">
     <div class="d-flex col-12 justify-content-center">
       <div class="col-3" id="featured-pdct">
+        <h3 class="text-secondary font-weight-bolder pb-3">HOT ADS</h3>
         <img class="img-fluid" src="./assets/blood/download.jpeg" alt="featured-product">
       </div>
       <div class="col-7">
-        <h1 class="text-danger"> A SPHYGMOMANOMETER </h1>
-        <p class="">A sphygmomanometer, also known as a blood pressure meter, blood pressure monitor, or blood pressure gauge, is a device used to measure blood pressure, composed of an inflatable cuff to collapse and then release the artery under the cuff in a controlled manner, and a mercury or aneroid manometer to measure the pressure.</p>
+        <h1 class="text-danger pb-3"> A SPHYGMOMANOMETER </h1>
+        <p class="pb-3 ads">A sphygmomanometer, also known as a blood pressure meter, blood pressure monitor, or blood pressure gauge, is a device used to measure blood pressure, composed of an inflatable cuff to collapse and then release the artery under the cuff in a controlled manner, and a mercury or aneroid manometer to measure the pressure.</p>
         <button class="btn btn-danger col-6 col-md-4 m-auto"> Purchase Details</button>
       </div>
     </div>
   </section>
   <main>
 
-    <section class="container-fluid">
-      <div>
-        <h3 class="text-center m-3">Thermometers</h3>
+    <section class="container sec-disp border-bottom border-top">
+      <div class="border-bottom">
+        <h3 class="font-weight-bolder p-4"> 
+         <i class="fa fa-thermometer p-2"></i> Thermometers 
+         <span class="text-secondary">(hand therms, ear therms ...)</span> </h3>
       </div>
 
       <div class="row container m-auto">
 
-        <div class="row col-12 col-md-6 ">
+        <div class="row col-12 col-md-6 p-4 ">
           <div class="col-6">
             <img class="img-fluid" src="./assets/therms/anton-SZ1DDwCPqkE-unsplash.jpg" alt="Thermometer" width="200px">
             <p class=""> Shop Braucol-md-5n Thermoscan Ear Thermometer</p>
@@ -75,7 +79,7 @@
           </div>
         </div>
 
-        <div class="row col-12 col-md-6 ">
+        <div class="row col-12 col-md-6 p-4 ">
           <div class="col-6">
             <img class="img-fluid" src="./assets/therms/anton-SZ1DDwCPqkE-unsplash.jpg" alt="Thermometer" width="200px">
             <p class=""> Shop Braucol-md-5n Thermoscan Ear Thermometer</p>
@@ -91,14 +95,16 @@
       </div>
     </section>
 
-    <section class="container-fluid">
-      <div>
-        <h3 class="text-center m-3">Thermometers</h3>
+    <section class="container sec-disp">
+      <div class="border-bottom ">
+        <h3 class="font-weight-bolder p-4"> 
+         <i class="fa fa-thermometer p-2"></i> Thermometers 
+         <span class="text-secondary">(hand therms, ear therms ...)</span> </h3>
       </div>
 
       <div class="row container m-auto">
 
-        <div class="row col-12 col-md-6 ">
+        <div class="row col-12 col-md-6 p-4 ">
           <div class="col-6">
             <img class="img-fluid" src="./assets/therms/anton-SZ1DDwCPqkE-unsplash.jpg" alt="Thermometer" width="200px">
             <p class=""> Shop Braucol-md-5n Thermoscan Ear Thermometer</p>
@@ -111,7 +117,7 @@
           </div>
         </div>
 
-        <div class="row col-12 col-md-6 ">
+        <div class="row col-12 col-md-6 p-4 ">
           <div class="col-6">
             <img class="img-fluid" src="./assets/therms/anton-SZ1DDwCPqkE-unsplash.jpg" alt="Thermometer" width="200px">
             <p class=""> Shop Braucol-md-5n Thermoscan Ear Thermometer</p>
@@ -123,18 +129,20 @@
             <button class="btn btn-danger">out of stock</button>
           </div>
         </div>
-        
+
       </div>
     </section>
 
-    <section class="container-fluid">
-      <div>
-        <h3 class="text-center m-3">Thermometers</h3>
+    <section class="container sec-disp">
+      <div class="border-bottom border-top">
+        <h3 class="font-weight-bolder p-4"> 
+         <i class="fa fa-thermometer p-2"></i> Thermometers 
+         <span class="text-secondary">(hand therms, ear therms ...)</span> </h3>
       </div>
 
       <div class="row container m-auto">
 
-        <div class="row col-12 col-md-6 ">
+        <div class="row col-12 col-md-6 p-4 ">
           <div class="col-6">
             <img class="img-fluid" src="./assets/therms/anton-SZ1DDwCPqkE-unsplash.jpg" alt="Thermometer" width="200px">
             <p class=""> Shop Braucol-md-5n Thermoscan Ear Thermometer</p>
@@ -147,7 +155,7 @@
           </div>
         </div>
 
-        <div class="row col-12 col-md-6 ">
+        <div class="row col-12 col-md-6 p-4 ">
           <div class="col-6">
             <img class="img-fluid" src="./assets/therms/anton-SZ1DDwCPqkE-unsplash.jpg" alt="Thermometer" width="200px">
             <p class=""> Shop Braucol-md-5n Thermoscan Ear Thermometer</p>
@@ -159,9 +167,13 @@
             <button class="btn btn-danger">out of stock</button>
           </div>
         </div>
-        
+
       </div>
     </section>
+
+
+
+    
 
   </main>
   <footer>

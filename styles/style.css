@@ -19,10 +19,16 @@ nav {
 .menu {
   background-color: #d35266;
   vertical-align: middle;
+  background-image: url("https://img.icons8.com/dotty/80/000000/search.png");
+  background-repeat: repeat-y;
+  background-position: 10% 50%;
 }
 
-.title {
-  font-size: 50px;
+.ads {
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
+}
+
+.sec-disp {
+  background-color: #888888;
 }
