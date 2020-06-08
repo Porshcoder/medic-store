@@ -53,12 +53,9 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-  /* .nav {
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-    text-align: center;
-  } */
+  .nav {
+    font-size: 8px;
+  }
 
   .nav button {
     width: 200px;
@@ -76,5 +73,13 @@ img {
 
   .ads {
     font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 437px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
