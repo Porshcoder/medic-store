@@ -24,12 +24,6 @@ img {
   background-color: #383838;
 }
 
-nav {
-  align-items: center;
-  vertical-align: middle;
-  height: 50px;
-}
-
 .menu {
   display: flex;
   flex-direction: column;
@@ -47,7 +41,7 @@ nav {
 }
 
 .sec-disp {
-  background-color: #dfdddd;
+  background-color: #888888;
 }
 
 .borders {
@@ -59,12 +53,12 @@ nav {
 }
 
 @media only screen and (max-width: 768px) {
-  .nav {
+  /* .nav {
     display: flex;
     flex-direction: column;
     height: 150px;
     text-align: center;
-  }
+  } */
 
   .nav button {
     width: 200px;
