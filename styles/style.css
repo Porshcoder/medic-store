@@ -34,6 +34,16 @@ img {
   background-position: 0%;
 }
 
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+
 .title {
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
@@ -48,8 +58,16 @@ img {
   border-bottom: 1px solid #9e9a9a;
 }
 
+.btn {
+  background-color: #d35266;
+}
+
 .form-elts {
   display: flex;
+}
+
+main {
+  background-color: #888888;
 }
 
 @media only screen and (max-width: 768px) {

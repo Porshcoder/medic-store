@@ -16,38 +16,63 @@
 </head>
 <body>
 
-  <nav class="nav col-12 text-white">
-    <div class="col-12 d-flex justify-content-start">
-      <a href="./index.html" class="col-2 text-white pt-2">MEDIC SHOP</a>
-      <a href="index.html" class="col-2 text-white pt-2"> <i class="fa fa-home"></i>  Home</a>
-      <a href="stets.html" class="col-2 text-white pt-1" ><i class="fa fa-file p-2"></i>Collection</a>
-      <a href="#" class=" col-2 text-white pt-1"><i class="fa fa-shopping-cart p-2"></i>Purchase List</a>
-      <button class="col-2 btn btn-danger">Post an Add</button>
-      <p class="col-md-2 text-white"><i class="fa fa-envelope p-3"></i>Selma Ndi</p>
-    </div>  
+  <nav class="nav navbar navbar-expand navbar-dark ">
+    <a class="navbar-brand" href="./index.html">MEDIC SHOP</a>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a href="./index.html" class="nav-link "> <i class="fa fa-home pr-2"></i> HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="./stets.html" class="nav-link "><i class="fa fa-file pr-2"></i> COLLECTIONS</a>
+        </li>
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link "><i class="fa fa-shopping-cart pr-2"></i>PURCHASE LIST</a>
+        </li>
+        <li>
+          <form class="form-inline">
+            <button class="btn btn-danger d-none d-md-block " type="submit">POST AN AD</button>
+          </form>
+        </li>
+      </ul>
+      
+      <span class="navbar-text"><i class="fa fa-envelope pr-2"></i>Selma Ndi</span>
+    </div>
   </nav>
+
   <header class="menu text-white p-5">
     <div class="col-12">
-      <h1 class="col-12 title pl-5">MEDIC SHOP</h1>
-      <h4 class="col-12 pl-5 ">Search over 124,000 items. Waiting to be sold!
+      <h1 class="col-12  title">MEDIC SHOP</h1>
+      <h4 class="col-12 pb-5">Over 124,000 items waiting to be sold
       </h4>
     </div>
-    <div class="form-elts pl-5 pt-3 col-12 ">
-      <select class="" name="medical" id="medic">
+    <div class="form-elts col-8  ">
+      <select class=" text-center form-control" name="medical" id="medic">
         <option value="All">All Equipment</option>
         <option value="Thermometers">Thermometers</option>
         <option value="Blood-pressure">Blood-Machines</option>
         <option value="Stethoscope">Stethoscopes</option>
       </select>
-      <input class=" text-center" type="text" placeholder="What are you looking for">
-      <input class=" text-center" type="text" placeholder="Medical">
-      <button class="btn btn-dark search ml-3">Search</button>
+      <input class="form-control text-center" type="text" placeholder="What are you looking for">
+      <input class="form-control text-center" type="text" placeholder="Medical">
     </div>
   </header>
- 
-  <main>
-
-   
+  
+  <main class=" row justify-content-center p-5">
+    
+    <div class="row col-8 justify-content-center">
+      <div class="col-4">
+        <img class="imgbox center-fit" src="./assets/therms/download1.jpeg" alt="Thermometer" >
+      </div>
+      <div class="col-8">
+        <h1>Thermometers</h1>
+        <p>an instrument for measuring blood pressure, typically 
+           gradually releasing the pressure in the cuff.</p>
+        <p> Shop Braucol-md-5n Thermoscan Ear Thermometer</p>
+        <button class="btn btn-danger">out of stock</button>
+      </div>
+    </div>
+    
   </main>
   <footer>
     <p class="text-center m-3">Designed by Datagirl&copy;2020</p>

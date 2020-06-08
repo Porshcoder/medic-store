@@ -16,13 +16,23 @@ This is a simple application where the user can view different medical equipment
 
 [Live Demo Link](https://raw.githack.com/Datagirlcmr/medicshop/features/index.html)
 
+## Video Presentation
+
+[Video Link](https://www.loom.com/share/102a98309b514657bb79a0aea9f513a9) 
+
 ## Getting Started
 
 Here are the steps to follow in order to get this project on your local computer.
 
 ### Setup
 
-clone this repo by typing `git clone`
+clone this repo by typing `git clone git@github.com:Datagirlcmr/medicshop.git`
+
+cd into the project folder
+
+locate the index.html folder
+
+open it with live server extension/or any browser to view the UI
 
 
 ## Author
